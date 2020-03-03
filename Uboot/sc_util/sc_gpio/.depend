@@ -1,0 +1,2 @@
+sc_gpio.o: sc_gpio.c sc_gpio.h sc_dl_types.h
+sc_gpio_port.o: sc_gpio_port.c sc_gpio.h sc_dl_types.h

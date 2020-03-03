@@ -1,0 +1,6 @@
+:R6260_boot.bin		    &00000000
+#:burn_in_loop			&0008ff00
+:sdk_uImage    			&00200000
+%R6260.pid              &0003ffff 
+$SIZE			     	&8000 #32M
+

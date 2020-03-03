@@ -1,0 +1,7 @@
+:uboot.img			        &00000000
+:bt_ver						&0003ffa0
+:sc_do_standalone.bin		&00040000
+#:burn_in_loop				&0008ff00
+%R6260.pid					&0003ffff
+$SIZE						&200 #512K
+

@@ -1,0 +1,7 @@
+rm -rf *.bin
+cp ../uboot.img .
+dd if=boot_ver  of=bt_ver bs=1 count=4
+
+./set_burn_in_loop 0x08
+./scBind -i R6260_boot.par -o R6260_boot.bin -p 0xff
+./BCH e 4 2048 64 R6260_boot.bin R6260_boot_burn.bin 
